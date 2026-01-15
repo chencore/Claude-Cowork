@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx cross-env NODE_ENV=development electron:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run transpile:electron:*)",
+      "Bash(set NODE_ENV=development:*)",
+      "Bash(npx:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm config set:*)",
+      "Bash(set ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/)",
+      "Bash(dir:*)",
+      "Bash(del:*)"
+    ]
+  }
+}
